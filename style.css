@@ -71,6 +71,9 @@ button{
     margin: 60px auto;
     text-align: center;
 }
+button:hover{
+    box-shadow: 1px 4px 4px hsl(218, 22%, 67%);
+}
 @media screen and (max-width: 800px){
     #child{
         grid-template-columns: 1fr;
